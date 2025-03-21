@@ -271,6 +271,7 @@ nav .logo img{
     display: flex;
     flex-flow: column;
     gap: 20px;
+    padding-right: 50px;
 }
 
 .services-heading h4{
