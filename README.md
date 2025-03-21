@@ -10,6 +10,7 @@ NAVBAR > Hero Section > Stats Section > Features Section > Services Section
     - I built this navbar using flexbox for responsive layout.
     - I used DM SANS font for navbar
     - Navbar isdivided into 3 divs - one for logo and company name, menu options using <a>, and buttons
+    ![Navbar Preview](assets/nav-prev.png)
 
 2. Hero Section -
     - The section is divided into 2 divs - Description and Image
