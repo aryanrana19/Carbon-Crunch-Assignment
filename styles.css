@@ -1,6 +1,11 @@
 /* FONTS */
 /* DM SANS */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+/* ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* CABIN */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
 
 *{
     box-sizing: border-box;
@@ -12,6 +17,10 @@ body{
     font-family: "DM Sans", sans-serif;
 }
 
+
+/* ==================================================================================================================================================== */
+/* NAVBAR DESIGN */
+
 nav{
     display: flex;
     width: 100%;
@@ -19,7 +28,7 @@ nav{
     justify-content: space-between;
     padding: 40px 50px;
     padding-bottom: 10px;
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
 }
 
 nav .logo{
@@ -50,10 +59,6 @@ nav .logo img{
     font-size: 1.25rem;
 }
 
-.nav-menu a:hover{
-    /* text-decoration: underline; */
-}
-
 .nav-buttons{
     width: auto;
     display: flex;
@@ -66,6 +71,7 @@ nav .logo img{
     font-size: 1.1rem;
     padding: 10px 25px;
     border-radius: 7px;
+    cursor: pointer;
     border: none;
 }
 
@@ -79,3 +85,79 @@ nav .logo img{
     background-color: #28b30e;
     font-weight: 700;
 }
+
+/* ==================================================================================================================================================== */
+/* HERO SECTION */
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.hero-description{
+    margin: 0;
+    padding: 0;
+}
+
+.save-environment{
+    background-color: #000;
+    color: #AFB0B6;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+}
+
+.hero-description h1{
+    font-size: 4rem;
+    font-family: "Cabin", sans-serif;
+    margin-top: 0px;
+}
+
+.hero-description button.hero-text{
+    font-size: 3.5rem;
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+    margin-top: -100px;
+    padding: 0;
+    background-color: #FEAB4F;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.hero-description p{
+    font-size: 1.7rem;
+    /* font-weight: 400; */
+}
+
+.green-text{
+    color: #28b30e;
+    font-weight: 700;
+}
+
+.hero-btn{
+    font-size: 1.1rem;
+    padding: 10px 25px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.calc-btn{
+    background-color: #fff;
+    color: #28b30e;
+    font-size: 1.2rem;
+}
+
+.hero-img img{
+    border-radius: 15px;
+    width: 600px;
+}
+
+
+/* ==================================================================================================================================================== */
