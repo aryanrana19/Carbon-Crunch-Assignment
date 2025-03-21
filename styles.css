@@ -1,0 +1,81 @@
+/* FONTS */
+/* DM SANS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+nav .logo{
+    display: flex;
+    gap: 5px;
+}
+
+nav .logo img{
+    width: 70px;
+}
+
+.logo h3{
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #222;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.nav-menu a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.nav-menu a:hover{
+    /* text-decoration: underline; */
+}
+
+.nav-buttons{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.nav-btn{
+    font-size: 1.1rem;
+    padding: 10px 25px;
+    border-radius: 7px;
+    border: none;
+}
+
+.login-btn{
+    background-color: #d6ffd0;
+    color: #54c63e;
+    font-weight: 700;
+}
+
+.demo-btn{
+    background-color: #28b30e;
+    font-weight: 700;
+}
