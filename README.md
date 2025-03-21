@@ -1,5 +1,8 @@
 # Carbon Crunch Assignment
- 
+
+This webpage I designed is made specifically for a **laptop screen** with no media queries implemented for mobile or tablet devices. 
+The layout and styling are optimized for larger screens such as a monitor, and elements are not responsive on smaller viewports.
+
 My Approach towards the assignment.
 
 MY DESIGN FLOW -
