@@ -209,3 +209,51 @@ nav .logo img{
     color: #fff;
     text-align: right;
 }
+
+
+/* ==================================================================================================================================================== */
+/* FEATURES SECTION */
+
+.features-section{
+    padding: 50px 100px;
+}
+
+.features-headings h4{
+    color: #239C0C;
+    padding-left: 35px;
+    margin: 0;
+}
+
+.features-headings h1{
+    font-size: 4rem;
+    margin-top: 0;
+    color: #2D2D2D;
+}
+
+.orange-text{
+    color: #FEAB4F;
+}
+
+.features-box{
+    background-color: #F5F5F8;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+    gap: 15px;
+}
+
+.features{
+    background-color: #fff;
+    width: 30%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.features img{
+    background-color: #D6FFD0;
+    border-radius: 50px;
+    padding: 15px;
+}
+
